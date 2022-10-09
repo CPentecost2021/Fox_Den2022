@@ -8,6 +8,127 @@
     <title>About Me Page</title>
 </head>
 <body>
-    
+
+    <div id="mySidebar" class="sidebar">	
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		<a href="Index.html">Home</a>
+		<a href="blog.html">Blog</a>
+		<a href="portfolio.html">Portfolio</a>
+	  </div>
+	  <div id="main">
+		<button class="openbtn" onclick="openNav()">☰</button> 
+    </div>
+
+    <div class="about-section">
+        <h1>About Me</h1>
+        <p>Hello and Welcome to my All about me page.</p>
+        <p>Feel free to scroll through the cards below for some tidbits about me.</p>
+      </div>
+      
+      <h2 style="text-align:center">About Christopher The Professional</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" alt="QA Work" style="width:100%">
+            <div class="container">
+              <h2>Software Quality Assurance Analyst</h2>
+              <p>I started in QA 6 years ago.  I came into the position asa subject matter expert.  After working for 13 years at the same company you get to know the software you are working with.  From there I learned on the job day one.</p>
+              <p>The Important Skills and Knowledge I have gained: Agile Methodologies, Software Development Life Cycle, White and Black Box Testing, Functional, Load, Exploratory, End to End, Regression, Mobile, Smoke and Integration Testing.</p>
+              <p>I have also worked with API testing with Swagger and the automated testing suite ReadyAPI. As well as Project Management software Jira.</p>
+              <p>Click on the Button below to read more about my Career.</p>
+              <p><button class="button"><a href="https://www.linkedin.com/in/christopher-pentecost-b6299518a/">Linkedin</a></button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="Web Dev" style="width:100%">
+            <div class="container">
+              <h2>Self Taught Amateur Front End Web Developer</h2>
+              <p>Since coming into the IT field I have started to teach myself Front End Web Development. Whether it is through Youtube tutorials or basic classes through a community college, I have learned the basisc's.  I am moving into learning different frameworks and being able to integrate them with Databases and the creation of Web Apps.</p>
+              <p>Skills and Knowledge I have gained: HTML, CSS, Javascript, UI/UX Design(As I don't have a person to do that for me), Git and Github, Jira processes(I created my own instance to kep track and enforce a Branching strategy).  I am familiar with CSS Flexbox, CSS Grid and Media Queries for Mobile Design. </p>
+              <p>If you are on this page you are seeing the fruits of my labour in action.</p>              
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/freddy-castro-u3ajSXhZM_U-unsplash.jpg" alt="Coffee" style="width:100%">
+            <div class="container">
+              <h2>Coffee Connoisseur</h2>
+              <p>The First Lesson about IT is that Coffee is your Best friend.  It maybe what keeps you awake through those long planning meetings or is a catalyst for a lively discussion about processes.  Coffee is Life.</p>
+              <p>Also if you are in IT and Share a Coffee maker with any other department you will be come the barista at your company. So if things don't work out you can always work at a coffee shop.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+      <h2 style="text-align:center">About Christopher The Person</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/images/jake-colling-w0veeEIceyI-unsplash.jpg" alt="Outdoors/Cycling" style="width:100%">
+            <div class="container">
+              <h2>Outdoor Activities</h2>
+              <p>I love getting outdoors.  I love to talk my 2 Children to the park, go on nature walks, or just get on my bike and go for a ride.  I am an avid Cyclist and own an E-bike that i use to get around to work or training appointments.</p>
+              <p>I hope that soon we as a family will be able to take up more outdoor sports like kayaking, paddle boarding, and camping(or glamping for my wife Cindy).</p>
+            </div>
+          </div>
+        </div>
+               
+        <div class="column">
+          <div class="card">
+            <img src="/images/jelmer-assink-gzeTjGu3b_k-unsplash.jpg" alt="Gym" style="width:100%">
+            <div class="container">
+              <h2>Working Out</h2>
+              <p>I enjoy working out.  Both cardiovascular and weight training.  I try to go 2-3 times a week on my own and at least 1 day a week with my trainer Lisle.</p>
+              <p>I do this mainly to keep myself in good condition to keep up with my kids, keep myself healthy and try to reverse some health issues.</p>
+              <p>I am a firm believer you get out of it what you put in...so I am never not putting in the work.</p>              
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/naomi-hebert-MP0bgaS_d1c-unsplash (1).jpg" alt="Kitchen" style="width:100%">
+            <div class="container">
+              <h2>The Kitchen is my Science Lab</h2>
+              <p>I enjoy cooking.  I love being in the kitchen with new and interesting ingredients and creating meals. The Food Network is my go to place for inspiration.  Once i have an idea I head to the Market or grocery store and then let the creativity begin.</p>
+              <p>I love all kinds of food.  I love International Cuisine as well as the good old North American BBQ staples(mmmmmm...Ribs).</p>
+              <p>I love the entertain and am looking forward to getting back to dinner parties next summer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+      <!--Footer for Copyrights and Citations for Images Used-->
+    <footer class="center bg-dark">
+        Photo by <a href="https://unsplash.com/@and_machines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">and machines</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fotis Fotopoulos</a> on <a href="https://unsplash.com/s/photos/web-development?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/s/photos/web-dev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+        <br>
+        Photo by <a href="https://unsplash.com/@naomish?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Naomi Hébert</a> on <a href="https://unsplash.com/s/photos/kitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@readysetfreddy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Freddy Castro</a> on <a href="https://unsplash.com/collections/1377905/coffee-and-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@jelmerassink?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jelmer Assink</a> on <a href="https://unsplash.com/s/photos/gym?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        <br>
+        Photo by <a href="https://unsplash.com/@jakecolling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jake Colling</a> on <a href="https://unsplash.com/s/photos/cycling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@arturoeg_foto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Arturo Esparza</a> on <a href="https://unsplash.com/s/photos/switch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+        <p>Christopher Pentecost &copy; 2022</p>
+    </footer>
 </body>
 </html>
