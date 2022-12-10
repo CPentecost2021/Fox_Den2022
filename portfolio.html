@@ -8,6 +8,17 @@
     <title>Portfolio Page</title>
 </head>
 <body>
+    <div class="pimg1">
+        <div id="mySidebar" class="sidebar">	
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="blog.html">Blog</a>
+        </div>
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button> 
+          </div>
+    </div>
     <header class="showcase">
         <div class="content">
             <div class="title">Welcome to the Archive</div>
@@ -35,6 +46,18 @@
             </div>
         </div>
     </section>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
 
     <footer>Photo by <a href="https://unsplash.com/@medbadrc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Med Badr  Chemmaoui</a> on <a href="https://unsplash.com/s/photos/office-wide?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </footer>
