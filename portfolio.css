@@ -8,7 +8,7 @@ body{
 
 .showcase::after {
     content: "";
-    height:100vh;
+    height:75vh;
     width: 100%;
     background-image: url(./images/med-badr-chemmaoui-yYsnRrZsXBA-unsplash.jpg);
     background-size: cover;
@@ -58,4 +58,95 @@ body{
     line-height: 1.7;
     margin-top: 1rem;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.bg-light {
+    background: #f5f5f5;
+    color: rgb(27, 27, 27);
+}
+
+.bg-dark{
+    background: #333;
+    color: #f4f4f4;
+}
+footer {
+    padding: 1.2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #fa4a04;
+}
+
+a:hover {
+    color: #f3f3;
+}
+
+/* Small Screens */
+@media(max-width: 400px) {
+    .showcase::after {
+        height: 50vh;    
+    }
+
+    .content {
+        top: 5%;
+        margin-top: 5px;
+    }
+
+    .content .logo {
+        height: 140px;
+        width: 140px;
+    }
+
+    .content .text {
+        display: none;
+    }
+
+    .grid-3, 
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    
+   .services div {
+        border-bottom: #333 dashed 1px;
+        padding: 1.2rem 1rem;
+    }
+}
+
+/* Landscape */
+@media(max-height: 500px) {
+    .content .title, .content .text {
+        display: none;
+    }
+
+    .content {
+        top: 0;
+    }
 }
