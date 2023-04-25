@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>About Me Page</title>
+	<meta charset="UTF-8">
+	<title>Bio Page</title>
+	
+<link href="aboutme.css" rel="stylesheet" type="text/css">
+
 </head>
-<body>
+
+	<div id="mySidebar" class="sidebar">	
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		<a href="index.html">Home</a>
+		<a href="blog.html">Blog</a>
+		<a href="portfolio.html">Professional Archive</a>
+		<a href="newsletter.html">Newsletter / Contact</a>
+	  </div>
+	  <div id="main">
+		<button class="openbtn" onclick="openNav()">☰</button> 
+	  </div>
+      <img src="/images/Kitsune.jpg" width="250" height="250" alt="Fox god" align="float-left"> 
+	<span class="header">
+		<h1>Christopher Pentecost</h1>
+		<h2>Husband, Father, Software Quality Assurance Analyst</h2>	 
+    </span>	
     
+    	
+    <img src="/images/colton-sturgeon-6KkYYqTEDwQ-unsplash.jpg" width="250" height="250" alt="balanced" align="left">
+   
+    <span id="personal">
+    
+		<h1>Personal Bio</h1>
+<I>I am Canadian! That opener will have aged me quite well.  I was born and raised in London Ontario and currently live here with my wife Cindy and 2 children Carter and Cassandra. I have a love for the outdoors, literature, music and spending time getting creative in the kitchen. I love riding my bike along the Thames Valley Parkway, camping and getting out to the park with my 2 children. I enjoy watching NFL football(Go Steelers!!) and Hockey(Go London Knights and the Colorado Avalanche). Other teams I enjoy watching are the Toronto Raptors, Notre Dame Fighting Irish, Tri Nations Rugby, The Euro and World cup Soccer. I enjoy getting into a good book by my favourite fiction authors are Michael Ondatje, Walter Mosley, Stephen King and Clive Barker. With a Little Bit of Edgar Allen Poe thrown in for good measure. I also enjoy the famed story telling of Anthony Bourdain.  My Musical tastes stretch from Gregorian Chant to Metal.  My favourite artists are Depeche Mode, Rammstein, Slayer, The Band, John Denver, Gordon Lightfoot and the Beatles. I don't just listen I have been known to perform as well.  I have sung with my church, high school and Amabile choirs.  I am avid percussionist.  I do enjoy just sitting listening to music, closing my eyes and letting the notes take me where my imagination can.  My extensive time in the kitchen started at 5 years old helping my mom bake for the school bake sale.  She taught me the ropes with spices and trusting my instincts.  I am fluent in the Savoury side of the kitchen more than the sweet.  I love to work with flavours to create new sauces, salad dressings and maranades.  Even the picky eater that my wife Cindy is I can always find ways of expanding her limited likes to include a more balanced diet. I would like to think that i am a worldly person.  My interests in the world and cultures that surround me fascinate me.  I have done alot of research into mythologies of Greece, Rome, Japan and the Norse cannons.  I don't consider me a follower of any specific religion or system of belief.  I do believe the the Kitsune as I grow and educate myself more with different cultures and peoples that I may grow another tail.  Being a straight white man makes things like this difficult as I do not want to misappropriate any ones cultures.  This is why I don't have any tattoo's or Samurai Swords in my house. My main goal is to create balance between my world view and the world around me.</p>
+</span>	
+
+
+<span id="professional">
+		
+<h2>Professional Bio</h2>
+		<p>I had spent 17 years with GoodLife Fitness clubs.  I had started as a Customer Service Representitive at one of their clubs.  Then I moved to their head office as a Support Clerk working with multiple clubs and progressed up the ladder to an Administrative Clerk. I was probed to make a change to IT Quality Assurance as a subject matter expert. I built a good deal of knowledge base testing UI and API.  Leading a push for robust automated test suites for our API's.  I worked for LBMX as a Software Quality Assurance Analyst.  LBMX is the world’s only buying group platform that connects your members and suppliers to a group-centric marketplace, providing frictionless rebate management, e-invoicing, product information management, digital marketplaces, and more with real-time reporting and analytics. I made a move to a US consulting firm but they had very different idea's on what it meant by communicating effectivly with their associates and giving proper feedback and coaching.  So Currently I am between opportunities.</p>
+		
+</span>
+	<img src="images/thisisengineering-raeng-uyfohHiTxho-unsplash.jpg" width="400" height="400" alt="Lounge" align="right"/>
+	
+	
+	<span id="journey">
+		<h1>My Current Journey</h1>
+	<p>Life is about continuing to adapt and being agile.  I am working on a Web Development certificate.  While that is happening I am using that to also deepen my knowledge of different IT programs like Git, as well as working on UX/UI Design.  This will better my knowledge of how UI/UX is built to better create tests to make current websites more robust. I hope to also create my own website blog saving me a lot of money if I know how to build and maintain it myself. I look forward to the opportunities that this knowledge will bring me in the future.  Being proficient at creating websites and web applications will push me to look at a broader career in the future. </p>
+	</span>
+		
+	<span>
+	<img class="float-left" src="images/victor-_qXjdWm8YEo-unsplash.jpg" width="600" height="500" alt="monitor"/>	  		
+	<img class="float-right" src="images/robert-bye-F2eHfMwIOxA-unsplash.jpg" width="600" height="500" alt="coffee meeting"/> 
+	</span>
+	</div>
+	<script>
+		function openNav() {
+		  document.getElementById("mySidebar").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+		
+		function closeNav() {
+		  document.getElementById("mySidebar").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+		</script>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+   </body>
 </html>

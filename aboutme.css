@@ -1,0 +1,123 @@
+/*colour scheme: Backgrounds: #AAA0A0,#8E8268, #844D36
+accent colours: 86B3D1, #474853*/
+
+body{
+   
+	background-size: cover;
+	height: 1500px;
+       
+}
+.header{
+    float: right;
+    text-align: center;
+	width: 75%;
+	
+}
+#personal{
+    width: 60%;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    float: right;
+    color: #212121;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    line-height: 20px;
+	
+}
+
+#professional{
+	width: 60%;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    float: left;
+    color: #212121;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    line-height: 20px;
+}
+#journey{
+	width: 60%;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    float: right;
+    color: #212121;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    line-height: 20px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ee7d49;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
