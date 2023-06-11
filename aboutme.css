@@ -9,10 +9,13 @@ accent colours: 86B3D1, #474853*/
       color: #fff;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     }
+     .jumbotron{
+        color: #e96d25;
+     }
     .about-row {
-      padding: 300px 0;
+      padding: 80px 0;
       background-color: #f8f9fa;
-      margin-bottom: 100px 50px; /* Add margin between rows */
+      margin-bottom: 50px 50px; /* Add margin between rows */
     }
 
     .about-row img {
@@ -35,7 +38,7 @@ accent colours: 86B3D1, #474853*/
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: #111;
+      background-color: #3f3d3d;
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -65,7 +68,7 @@ accent colours: 86B3D1, #474853*/
     .openbtn {
       font-size: 20px;
       cursor: pointer;
-      background-color: #111;
+      background-color: #272727;
       color: white;
       padding: 10px 15px;
       border: none;
