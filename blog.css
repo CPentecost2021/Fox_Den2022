@@ -36,6 +36,10 @@ body, html{
     background-image: url(images/sharon-mccutcheon-gxkWSW6K15Y-unsplash.jpg);
     min-height: 400px;
 }
+.pimg6{
+    background-image: url(images/alex-gruber-r0S85Om5JeY-unsplash.jpg);
+    min-height: 400px;
+}
 .section{
     text-align: center;
     padding: 50px 80px;
@@ -64,7 +68,7 @@ body, html{
     padding: 20px;
 }
 @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg, .pimg6{
         background-attachment: scroll;
     }
 }
