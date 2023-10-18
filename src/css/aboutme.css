@@ -3,7 +3,7 @@ accent colours: 86B3D1, #474853*/
     /* Custom CSS styling */
     
     header {
-      background-image: url('./images/ryunosuke-kikuno-hdD0GvwqlZw-unsplash.jpg'); /* Replace with your own image */
+      background-image: url('.../images/ryunosuke-kikuno-hdD0GvwqlZw-unsplash.jpg'); /* Replace with your own image */
       background-size: cover;
       background-position: center;
       color: #fff;
