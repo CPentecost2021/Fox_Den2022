@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/nathan-waters-j7q-Z9DV3zw-unsplash.jpg'; /* Replace 'path/to/your/image.jpg' with your image path */
+    background-image: url('../images/nathan-waters-j7q-Z9DV3zw-unsplash.jpg'); /* Replace 'path/to/your/image.jpg' with your image path */
     background-size: cover;
     z-index: -1;
   }
