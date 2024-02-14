@@ -1,6 +1,6 @@
 // Countdown timer function
 function countdown() {
-  const launchDate = new Date('2024-02-28T00:00:00Z').getTime(); // Updated launch date to February 28, 2024
+  const launchDate = new Date('2024-03-31T00:00:00Z').getTime(); // Updated launch date to February 28, 2024
   const now = new Date().getTime();
   const distance = launchDate - now;
 
